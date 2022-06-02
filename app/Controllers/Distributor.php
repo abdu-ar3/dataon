@@ -19,7 +19,7 @@ class Distributor extends BaseController
         $distributor = $this->distributorModel->findAll();
 
         $data = [
-            'title' => 'Home | DatOn',
+            'title' => 'Distributor | DatOn',
             'distributor' => $distributor
         ];
 

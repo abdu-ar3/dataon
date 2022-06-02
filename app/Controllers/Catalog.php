@@ -19,7 +19,7 @@ class Catalog extends BaseController
         $catalog = $this->catalogModel->findAll();
 
         $data = [
-            'title' => 'Home | CI4App',
+            'title' => 'Catalog | DataOn',
             'catalog' => $catalog
         ];
 
